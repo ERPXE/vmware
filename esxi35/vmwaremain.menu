@@ -1,0 +1,8 @@
+LABEL ESXI35
+MENU LABEL ^VMware ESXi 3.5 U5 x86
+KERNEL er/plugins/vmware/esxi35/mboot.c32
+APPEND er/plugins/vmware/esxi35/vmkernel.gz --- er/plugins/vmware/esxi35/binmod.tgz --- er/plugins/vmware/esxi35/ienviron.tgz --- er/plugins/vmware/esxi35/cim.tgz --- er/plugins/vmware/esxi35/oem.tgz --- er/plugins/vmware/esxi35/license.tgz --- er/plugins/vmware/esxi35/install.tgz
+IPAPPEND 2
+TEXT HELP
+                 Install VMware x86 ESXi 3.5 U5.
+ENDTEXT

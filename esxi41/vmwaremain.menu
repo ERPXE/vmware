@@ -1,0 +1,8 @@
+LABEL ESXI41
+MENU LABEL ^VMware ESXi 4.1 U1 x64
+KERNEL er/plugins/vmware/esxi41/mboot.c32
+APPEND er/plugins/vmware/esxi41/vmkboot.gz --- er/plugins/vmware/esxi41/vmkernel.gz --- er/plugins/vmware/esxi41/sys.vgz --- er/plugins/vmware/esxi41/cim.vgz --- er/plugins/vmware/esxi41/ienviron.vgz --- er/plugins/vmware/esxi41/install.vgz --- er/plugins/vmware/esxi41/image.tgz
+IPAPPEND 2
+TEXT HELP
+                 Install VMware x64 ESXi 4.1.0 U1.
+ENDTEXT
